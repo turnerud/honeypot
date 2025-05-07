@@ -1,3 +1,4 @@
+# SSH Honeypot in Python
 An SSH honeypot written in Python using Paramiko. This project logs all unauthorized SSH connection attempts as well as monitors intrusion activity.
 
 # ⚙️ Features
