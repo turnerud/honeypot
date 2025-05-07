@@ -55,7 +55,7 @@ Attempted password
 
 get_allowed_auths called from IP: 127.0.0.1 | Username: alice
 
-check_auth_password called from IP: 127.0.0.1 | Username: alice, | Password: testing
+check_auth_password called from IP: 127.0.0.1 | Username: alice | Password: testing
 
 check_channel_request has been called from (127.0.0.1): 0
 
