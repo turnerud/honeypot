@@ -29,7 +29,7 @@ pip install paramiko
 
 This honeypot uses a private key to simulate an SSH server. Generate one using ssh-keygen:
 
-ssh-keygen -f server.key -N ''
+ssh-keygen -t rsa -f server.key 
 
 This creates a private key file named server.key in the current directory with no passphrase.
 
