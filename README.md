@@ -1,6 +1,6 @@
 An SSH honeypot written in Python using Paramiko. This project logs all unauthorized SSH connection attempts as well as monitors intrusion activity.
 
-⚙️ Features
+# ⚙️ Features
 
 Emulates an SSH server.
 
@@ -10,21 +10,21 @@ Stores logs in a local file (honeypot.log).
 
 Easy to configure and deploy.
 
-🛠 Setup
+# 🛠 Setup
 
-1. Clone the Repository
+## 1. Clone the Repository
    
 git clone https://github.com/yourusername/ssh-honeypot.git
 
 cd ssh-honeypot
 
-2. Install Dependencies
+## 2. Install Dependencies
    
 Make sure you have Python 3 installed. Then install Paramiko:
 
 pip install paramiko
 
-3. Generate Server Host Key
+## 3. Generate Server Host Key
 
 This honeypot uses a private key to simulate an SSH server. Generate one using ssh-keygen:
 
@@ -32,13 +32,13 @@ ssh-keygen -f server.key -N ''
 
 This creates a private key file named server.key in the current directory with no passphrase.
 
-4. Run the Honeypot
+## 4. Run the Honeypot
    
 python honeypot.py
 
 Once running, the honeypot will listen for incoming SSH connections (I set this to port 2222 for testing purposes) and log all interaction attempts to honeypot.log.
 
-📄 Log Output
+# 📄 Log Output
 
 Each log entry contains:
 
@@ -50,7 +50,7 @@ Attempted username
 
 Attempted password
 
-It should look something like this running from a local host:
+### It should look something like this running from a local host:
 
 get_allowed_auths called from IP: 127.0.0.1 | Username: alice
 
